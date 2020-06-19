@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bi"
+    tools:context="bike.myapplication.Main4Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_paring"
+            android:layout_width="171dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dip"
+            android:layout_marginTop="50dp"
+            android:text="페어링"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="63dp"
+            android:layout_margin="5dip"
+            android:layout_marginTop="50dp"
+            android:text="파란색 밝기 상"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/blue2"
+            android:layout_width="wrap_content"
+            android:layout_height="63dp"
+            android:layout_margin="5dip"
+            android:layout_marginTop="50dp"
+            android:text="파란색 밝기 중"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/blue3"
+            android:layout_width="wrap_content"
+            android:layout_height="63dp"
+            android:layout_margin="5dip"
+            android:layout_marginTop="50dp"
+            android:text="파란색 밝기 하"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="63dp"
+            android:layout_margin="5dip"
+            android:layout_marginTop="50dp"
+            android:text="노란색 밝기 상"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/yellow2"
+            android:layout_width="wrap_content"
+            android:layout_height="63dp"
+            android:layout_margin="5dip"
+            android:layout_marginTop="50dp"
+            android:text="노란색 밝기 중"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/yellow3"
+            android:layout_width="wrap_content"
+            android:layout_height="63dp"
+            android:layout_margin="5dip"
+            android:layout_marginTop="50dp"
+            android:text="노란색 밝기 하"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/red"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_margin="5dip"
+        android:layout_marginTop="50dp"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:text="빨간색 밝기 상" />
+
+        <Button
+            android:id="@+id/red2"
+            android:layout_width="wrap_content"
+            android:layout_height="63dp"
+            android:layout_margin="5dip"
+            android:layout_marginTop="50dp"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:text="빨간색 밝기 중" />
+
+        <Button
+            android:id="@+id/red3"
+            android:layout_width="wrap_content"
+            android:layout_height="63dp"
+            android:layout_margin="5dip"
+            android:layout_marginTop="50dp"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:text="빨간색 밝기 하" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="소리 세기 조절"/>
+
+        <SeekBar
+            android:id="@+id/sound"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>
+
